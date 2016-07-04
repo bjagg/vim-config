@@ -1,0 +1,5 @@
+# Ignore the net history
+/.netrwhist
+
+# Ignore spelling files to avoid having to sync
+/spell
