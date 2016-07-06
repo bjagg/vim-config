@@ -1,3 +1,6 @@
+" Change mapleader
+let mapleader=","
+set timeoutlen=2000
 " Add pathogen runtime
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
@@ -37,8 +40,6 @@ set ttyfast
 set gdefault
 " Use UTF-8 without BOM
 set encoding=utf-8 nobomb
-" Change mapleader
-let mapleader=","
 " Donâ€™t add empty newlines at the end of files
 set binary
 set noeol
@@ -131,3 +132,8 @@ au Syntax * RainbowParenthesesLoadBraces
 let g:airline_powerline_fonts = 1
 let g:airline_symbols = {}
 let g:airline_symbols.space = "\ua0"
+
+" NERDTree
+map <C-n> :NERDTreeToggle<CR>
+nnoremap <leader>nt :NERDTreeToggle<CR>
+
