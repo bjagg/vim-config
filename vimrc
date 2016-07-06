@@ -3,11 +3,12 @@ runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
 " Set guifont to a Powerline derivative
-"set guifont=Droid\ Sans\ Mono\ for\ Powerline
-set guifont=Roboto\ Mono\ for\ Powerline
-"set guifont=Roboto\ Mono\ Medium\ for\ Powerline
+"set guifont=Droid\ Sans\ Mono\ for\ Powerline\ 10
+set guifont=Roboto\ Mono\ for\ Powerline\ 15
+"set guifont=Roboto\ Mono\ Medium\ for\ Powerline\ 11
+
 " Set spelling language
-set spell spelllang=en_us
+set spelllang=en_us
 nnoremap <leader>f 1z=
 nnoremap <leader>s :set spell!
 " Make Vim more useful
