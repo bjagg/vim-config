@@ -22,6 +22,7 @@
 [submodule "bundle/vim-clojure-static"]
 	path = bundle/vim-clojure-static
 	url = git@github.com:guns/vim-clojure-static
+	ignore = dirty
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = git@github.com:tpope/vim-surround.git
@@ -31,6 +32,16 @@
 [submodule "bundle/vim-sexp"]
 	path = bundle/vim-sexp
 	url = git@github.com:guns/vim-sexp.git
+	ignore = dirty
 [submodule "bundle/vim-repeat"]
 	path = bundle/vim-repeat
 	url = git@github.com:tpope/vim-repeat.git
+[submodule "bundle/nerdtree-git-plugin"]
+	path = bundle/nerdtree-git-plugin
+	url = git@github.com:xuyuanp/nerdtree-git-plugin.git
+[submodule "bundle/vim-gitgutter"]
+	path = bundle/vim-gitgutter
+	url = git@github.com:airblade/vim-gitgutter.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive.git
