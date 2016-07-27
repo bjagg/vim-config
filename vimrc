@@ -9,7 +9,7 @@ execute pathogen#infect()
 if has('gui_macvim')
     "set guifont=Droid\ Sans\ Mono\ for\ Powerline:h10
     "set guifont=Roboto\ Mono\ for\ Powerline:h16
-    set guifont=Roboto\ Mono\ Medium\ for\ Powerline:h13
+    set guifont=Roboto\ Mono\ Medium\ for\ Powerline:h10
 else
     "set guifont=Droid\ Sans\ Mono\ for\ Powerline\ 10
     set guifont=Roboto\ Mono\ for\ Powerline\ 16
@@ -64,7 +64,10 @@ syntax on
 set cursorline
 hi cursorline ctermbg=NONE guibg=NONE cterm=underline gui=underline
 " Make tabs as wide as two spaces
+set shiftwidth=2
+set softtabstop=2
 set tabstop=2
+set expandtab
 " Enable line numbers
 set number
 " Show â€œinvisibleâ€ characters
