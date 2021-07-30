@@ -8,8 +8,8 @@ execute pathogen#infect()
 " Set guifont to a Powerline derivative
 if has('gui_macvim')
     "set guifont=Droid\ Sans\ Mono\ for\ Powerline:h10
-    "set guifont=Roboto\ Mono\ for\ Powerline:h16
-    set guifont=Roboto\ Mono\ Medium\ for\ Powerline:h10
+    set guifont=Roboto\ Mono\ for\ Powerline:h16
+    "set guifont=Roboto\ Mono\ Medium\ for\ Powerline:h10
 else
     "set guifont=Droid\ Sans\ Mono\ for\ Powerline\ 10
     set guifont=Roboto\ Mono\ for\ Powerline\ 16
